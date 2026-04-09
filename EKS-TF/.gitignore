@@ -1,0 +1,36 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform variable files (can contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan output
+*.tfplan
+
+# Lock file (optional: keep if working in team)
+.terraform.lock.hcl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Jenkins / temp files
+*.tmp
+*.bak
+
+# Binary files (just in case)
+*.exe
+*.zip
+*.tar
+*.gz
